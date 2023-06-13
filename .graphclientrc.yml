@@ -7,6 +7,10 @@ sources:
 plugins:
   - responseCache:
       ttlPerCoordinate:
+        - coordinate: Query.pools
+          ttl: 30000 # 30 seconds
+        - coordinate: Query.bins
+          ttl: 60000 # 1 minute
         - coordinate: Query.*
           ttl: 300000 # 5 minutes
 
