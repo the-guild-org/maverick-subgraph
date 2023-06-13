@@ -1,0 +1,15 @@
+sources:
+  - name: MaverickZkSyncV2
+    handler:
+      graphql:
+        endpoint: https://api.studio.thegraph.com/query/42519/maverick-zksync-v2-app/v0.0.3
+
+plugins:
+  - responseCache:
+      ttlPerCoordinate:
+        - coordinate: Query.*
+          ttl: 300 # 5 minutes
+
+# cache:
+#   cfwKv:
+#     namespace: MaverickSubgraph

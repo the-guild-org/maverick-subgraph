@@ -1,0 +1,30 @@
+{
+  "name": "maverick-subgraph",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "graphclient build",
+    "dev": "wrangler dev"
+  },
+  "author": "Saihajpreet Singh <saihajpreet.singh@gmail.com> (https://saihaj.dev/)",
+  "devDependencies": {
+    "@cloudflare/workers-types": "4.20230419.0",
+    "@graphprotocol/client-cli": "3.0.0",
+    "typescript": "^5.0.4",
+    "wrangler": "^3.1.0"
+  },
+  "dependencies": {
+    "@graphql-mesh/cache-cfw-kv": "0.94.0",
+    "@graphql-mesh/cache-localforage": "^0.94.0",
+    "@graphql-mesh/cross-helpers": "^0.4.0",
+    "@graphql-mesh/graphql": "^0.94.1",
+    "@graphql-mesh/http": "^0.94.1",
+    "@graphql-mesh/merger-bare": "^0.94.0",
+    "@graphql-mesh/plugin-response-cache": "0.94.0",
+    "@graphql-mesh/runtime": "^0.94.0",
+    "@graphql-mesh/store": "^0.94.0",
+    "@graphql-mesh/utils": "^0.94.0",
+    "@whatwg-node/fetch": "^0.9.6",
+    "graphql": "16.6.0"
+  }
+}
