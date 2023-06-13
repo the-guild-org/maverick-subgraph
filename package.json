@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "build": "graphclient build",
-    "dev": "wrangler dev"
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
   },
   "author": "Saihajpreet Singh <saihajpreet.singh@gmail.com> (https://saihaj.dev/)",
   "devDependencies": {

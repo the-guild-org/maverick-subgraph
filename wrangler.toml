@@ -1,3 +1,6 @@
 name = "mavrick_subgraph"
 main = "src/index.ts"
 compatibility_date = "2023-06-13"
+kv_namespaces = [
+  { binding = "MaverickSubgraph", id = "1cf3a83ed6234ad7bd3c4590d1e1d9a5" }
+]
